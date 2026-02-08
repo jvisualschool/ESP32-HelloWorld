@@ -1,0 +1,15 @@
+# Arduino/ESP32 build artifacts
+build/
+arduino_build/
+arduino_cache/
+*.bin
+*.elf
+*.map
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
