@@ -2,7 +2,12 @@
 
 이 프로젝트는 Sunton ESP32-S3 3.5인치 QSPI 디스플레이 보드를 위한 **LVGL 기반 시스템 인터페이스**입니다. 제조사 전용 드라이버를 아두이노 환경에 최적화하여 빌드 및 구동에 성공한 상태입니다.
 
-![Project Screenshot](screenshot.png)
+![Project Screenshot](screenshot/screenshot1_slim.webp)
+
+| Theme: DARK | Theme: LIGHT | Theme: LOW_POWER |
+| :---: | :---: | :---: |
+| ![Dark Mode](screenshot/screenshot1_slim.webp) | ![Light Mode](screenshot/screenshot3_slim.webp) | ![Low Power](screenshot/screenshot4_slim.webp) |
+
 
 ---
 

@@ -406,10 +406,11 @@
  *Compiler error will be triggered if a font needs it.*/
 #define LV_FONT_FMT_TXT_LARGE 0
 
-/*Enables/disables support for compressed fonts.*/
-#define LV_USE_FONT_COMPRESSED 0
+/*1: Enable anti-aliasing (lines, and borders will be smooth)*/
+#define LV_ANTIALIAS 0
 
-/*Enable subpixel rendering*/
+/*1: Enable sub-pixel rendering*/
+#define LV_SUBPX_EN 0
 #define LV_USE_FONT_SUBPX 0
 #if LV_USE_FONT_SUBPX
     /*Set the pixel order of the display. Physical order of RGB channels. Doesn't matter with "normal" fonts.*/
